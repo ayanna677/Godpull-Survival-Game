@@ -18,15 +18,6 @@ python3 -m http.server 8080
 
 Any static file server works — there is no backend.
 
-## Deploy to GitHub Pages
-
-1. Create a new GitHub repo and push these files (`index.html`, `style.css`, `game.js`, `assets/`) to the `main` branch.
-2. In the repo, go to **Settings → Pages**.
-3. Under **Build and deployment**, set **Source** to `Deploy from a branch`, branch `main`, folder `/ (root)`.
-4. Save — GitHub will give you a URL like `https://<your-username>.github.io/<repo-name>/` within a minute or two.
-
-That's it — no CI, no build step, works on phones, tablets, and desktops out of the box.
-
 ## File structure
 
 ```
